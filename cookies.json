@@ -1,1 +1,7 @@
-[]
+{
+  "cookies": [
+    "YOUR_FIRST_BING_COOKIE",// Compulsory Option 
+    "YOUR_SECOND_BING_COOKIE",// (Optional ) This is not compulsory if you don't add cookie in second and third option it is use for more better response if first cookie not work so cookie changed with second cookie and it use same process to others
+    "YOUR_THIRD_BING_COOKIE"// Add more as you needed
+  ]
+}

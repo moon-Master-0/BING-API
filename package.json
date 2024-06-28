@@ -1,10 +1,10 @@
 {
-  "name": "BING-RESET-API",
-  "version": "1.10.5",
+  "name": "BING-API",
+  "version": "10.5.9",
   "description": "A powerful Node.js API for generating customized images using Bing search results. Fetch images based on specific queries and manipulate them with ease.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["nodejs", "image-generation", "api", "bing", "customization", "canvas"],

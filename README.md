@@ -1,8 +1,4 @@
-Certainly! Here's an expanded README with more detailed information and tips:
-
----
-
-# Project README
+# TUTORIAL README
 
 ## Table of Contents
 1. [How to Get This Project](#how-to-get-this-project)
@@ -200,6 +196,6 @@ By following these detailed steps, users can effectively obtain the _U cookie fr
   - Reach out to the project maintainer via email or GitHub issues for assistance.
 
 **Email**: aryanchauhan78577@gmail.com 
+
 **Phone**: +919317171638
-**Website**:
  

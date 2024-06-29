@@ -32,7 +32,7 @@ module.exports = (cookiesList) => {
 
       for (const cookie of cookiesList) {
         try {
-          response = await axios.get(`https://bing-v1.onrender.com/api/bing?prompt=${prompt}&cookie=${cookie}`);
+          response = await axios.get(`https://bing-v2.onrender.com/api/bing?prompt=${prompt}&cookie=${cookie}`);
           images = response.data.images;
           success = true;
           break;  // Exit loop if request is successful
@@ -49,7 +49,7 @@ module.exports = (cookiesList) => {
       // Save image data to bingData.json
       saveImageData({ prompt, images });
 
-      res.json({ url: images });
+      res.json({ imageUrls: images });
     } catch (error) {
       console.error(error);
       res.status(500).json({ error: 'Internal server error' });
